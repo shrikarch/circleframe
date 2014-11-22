@@ -558,7 +558,8 @@ section {
   .footer a {
     color: #fff; }
   .footer .social {
-    height: 100px; }
+    height: 100px;
+    border-right: 1px solid #555; }
     .footer .social .pholder {
       padding-top: 12px;
       font-weight: 200;
@@ -588,7 +589,7 @@ section {
     .footer .misc .vklink {
       font-size: 20px; }
   .footer .vk {
-    padding-top: 52px; }
+    padding-top: 30px; }
   .footer .links {
     height: 100px;
     border-right: 1px solid #555;
@@ -603,7 +604,18 @@ section {
   .footer .pc-logo {
     display: block;
     margin: 0px auto;
+    width: 65px;
+    height: 50px;
+    margin-bottom: -1px; }
+  .footer .pc-logo-index {
+    display: block;
+    margin: 0px auto;
     width: 160px; }
+  .footer .vk-index {
+    padding-top: 52px; }
+
+.temp-index-footer .social {
+  border-right: 0px solid #555; }
 
 #contact .textinfo {
   margin-top: 35px;
@@ -639,6 +651,14 @@ section {
   color: #fff;
   font-weight: 200;
   font-size: 40px;
+  text-align: center;
+  text-transform: uppercase; }
+.cat-page .catg-name-temp {
+  padding-top: 0px;
+  margin-bottom: 0px;
+  color: #fff;
+  font-weight: 200;
+  font-size: 25px;
   text-align: center;
   text-transform: uppercase; }
 .cat-page #container {
