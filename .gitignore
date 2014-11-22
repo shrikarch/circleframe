@@ -1,6 +1,6 @@
-.sass-catche/
-node_modules/
-sass/
+/.sass-catche/
+/node_modules/
+/sass/
 
 #files
 gruntfile.js
