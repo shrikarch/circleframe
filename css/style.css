@@ -362,10 +362,10 @@ section {
   background-color: rgba(0, 0, 0, 0.35);
   background-position: -10% 0; }
 
-.overlay-f {
+.overlay-darker {
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.6);
   background-position: -10% 0; }
 
 #circlelogo {
@@ -649,8 +649,7 @@ section {
   width: 220px;
   margin: 5px; }
 .cat-page .fas {
-  padding: 10px;
-  background-color: #333; }
+  padding: 10px; }
 
 .profile-category .item {
   border: 1px solid #ccc; }
@@ -687,6 +686,9 @@ section {
     height: 150px; }
   .interior-category .no-subhead {
     padding-top: 30px; }
+  .interior-category #des-360 {
+    background: url("../img/thumbs/travel.jpg") no-repeat;
+    background-size: cover; }
 
 .int-sub-cat {
   padding-bottom: 40px; }
