@@ -365,7 +365,7 @@ section {
 .overlay-darker {
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.5);
   background-position: -10% 0; }
 
 #circlelogo {
@@ -687,7 +687,25 @@ section {
   .interior-category .no-subhead {
     padding-top: 30px; }
   .interior-category #des-360 {
-    background: url("../img/thumbs/travel.jpg") no-repeat;
+    background: url("../img/work/interior_thumbs/1.jpg") no-repeat;
+    background-size: cover; }
+  .interior-category #xcelence {
+    background: url("../img/work/interior_thumbs/14.jpg") no-repeat;
+    background-size: cover; }
+  .interior-category #ace {
+    background: url("../img/work/interior_thumbs/30.jpg") no-repeat;
+    background-size: cover; }
+  .interior-category #casino-pride {
+    background: url("../img/work/interior_thumbs/44.jpg") no-repeat;
+    background-size: cover; }
+  .interior-category #fullerton {
+    background: url("../img/work/interior_thumbs/59.jpg") no-repeat;
+    background-size: cover; }
+  .interior-category #tkt {
+    background: url("../img/work/interior_thumbs/81.jpg") no-repeat;
+    background-size: cover; }
+  .interior-category #save {
+    background: url("../img/work/interior_thumbs/68.jpg") no-repeat;
     background-size: cover; }
 
 .int-sub-cat {

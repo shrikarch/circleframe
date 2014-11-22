@@ -5,6 +5,7 @@ img/work/
 
 #files
 Gruntfile.js
+js/main.js
 
 #uploadLink
 #git ftp push -u circlro6 -p - ftpes://circleframeproductions.com/public_html.
