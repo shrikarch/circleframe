@@ -1,6 +1,7 @@
 .sass-cache/
 node_modules/
 sass/
+img/
 
 #files
-gruntfile.js
+Gruntfile.js
