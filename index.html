@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <title>CircleFrame Productions | Home</title>
+        <!-- <meta name="description" content="Page Preloading Effect: Re-creating the effect seen on fontface.ninja" />
+<meta name="keywords" content="page loading, effect, initial, logo, sliding, web design, css animation, transform" />
+<meta name="author" content="Codrops" /> -->
+        <link rel="shortcut icon" href="img/favicon.png">
+        <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/foundation.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.min.css" />
+        <script src="js/jquery-2.1.1.min.js"></script>
+        <script src="js/modernizr.custom.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/base.js"></script>
+        <script src="js/jquery.smooth-scroll.js"></script>
+        <script src="js/device.min.js"></script>
+
+    </head>
+    <body class="demo-1">
+        <div id="ip-container" class="ip-container">
+            <!-- initial header -->
+            <header class="ip-header index">
+                <h1 class="ip-logo">
+                    <img src="img/logocirclesmall.png" alt="" class="ip-inner circlogo" id="circlelogo">
+                    <img src="img/logotext.png" alt="" class="ip-inner" id="textlogo">
+                    <p id="ip-incont" class="ip-inner animated" style="text-align:center; color:#333">FILMS &nbsp;|&nbsp; DOCUMENTARIES &nbsp;|&nbsp; PHOTOGRAPHY <br></p>
+                    <!-- Change the below data attribute to play -->
+                    <div id="total-progress-wrap">
+                        <div id="ip-progr" class="progress-wrap progress animated" data-progress-percent="25">
+                            <div class="progress-bar progress"></div>
+                        </div>
+                    </div>
+                </h1>
+                <div class="ip-loader">
+                    <svg class="ip-inner" width="60px" height="60px" viewBox="0 0 80 80">
+                        <path class="ip-loader-circlebg" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
+                        <path id="ip-loader-circle" class="ip-loader-circle" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
+                    </svg>
+                </div>
+            </header>
+
+            <!-- main content -->
+            <div class="ip-main">
+                <div class="fancyload">
+                    <div class="container navigation">
+                        <div class="medium-8 medium-centered columns text-center">
+                            <span class="nav"><a href="#about" class="sline">ABOUT</a> | <a href="#contact" class="sline">CONTACT</a></span>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row collapse totalheight">
+                            <div class="medium-9 columns">
+                                <div class="row box">
+                                    <div class="sameheight medium-7 columns" id="interior">
+                                        <div class="overlay">
+                                            <a href="interior.html"><span class="categoryname">Architecture <br> <span class="amphersant">&</span> <br> Interior</span>
+                                                <span class="subhead intr-p">photography</span></a>
+                                            <a href="interior.html"><img src="img/thumbs/transp.png" alt="" class="transparent"></a>
+                                        </div>
+                                    </div>
+                                    <div class="sameheight medium-5 columns" id="profile">
+                                        <div class="overlay">
+                                            <a href="profile.html"><span class="categoryname">profile</span>
+                                                <span class="subhead prof-p">photography</span></a>
+                                            <a href="profile.html"><img src="img/thumbs/transp.png" alt="" class="transparent"></a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="row box">
+                                    <div class="sameheight medium-5 columns" id="industrial">
+                                        <div class="overlay">
+                                            <a href="documentaries.html"><span class="categoryname docs-cat-text">Documentaries <br> <span class="amphersant">&</span> <br> Short Films</span> 
+                                                <span class="subhead doc-p">coming  soon</span></a>
+                                            <a href="documentaries.html"><img src="img/thumbs/transp.png" alt="" class="transparent"></a>
+                                        </div>
+                                    </div>
+                                    <div class="sameheight medium-7 columns" id="travel">
+                                        <div class="overlay">
+                                            <a href="travel.html"><span class="categoryname cat-travel">Travel</span>
+                                                <span class="subhead trav-p">photography</span></a>
+                                            <a href="travel.html"><img src="img/thumbs/transp.png" alt="" class="transparent"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="totalheight medium-3 columns" id="fashion">
+                                <div class="overlay-f">
+                                    <a href="fashion.html"><span class="categoryname cat-fashion">Fashion</span>
+                                        <span class="subhead fash-p">photography</span></a>
+                                    <a href="fashion.html"><img src="img/thumbs/transp.png" alt="" class="transparent-fa"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- /container -->
+
+                    <div class="container about" id="about">
+                        <div class="row">
+                            <div class="medium-8 medium-centered columns text-center">
+                                <span class="head">ABOUT US</span>
+                                <p>Excuse us while we find some awesome things to write about ourselves.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container about" id="contact">
+                        <div class="row">
+                            <div class="medium-6 medium-centered columns text-center">
+                                <span class="head" style="padding-left:5px;">CONTACT US</span>
+                                <div class="small-12 medium-12 large-8 small-centered columns textinfo">
+                                    <span class="name">Aniket Pawar</span> <br>
+                                    <span class="ph-no">9930067087</span> <br>
+                                    ani@circleframeproductions.com <br>
+                                    -- <br>
+
+                                    <span class="name">Vishal Kadam</span> <br>
+                                    <span class="ph-no">9930925612</span> <br>
+                                    vishal@circleframeproductions.com
+                                </div>
+
+                                <div class="hide small-12 medium-12 large-8 small-centered columns form-section">
+                                    <form action="">
+                                        <div class="row">
+                                            <div class="small-12 columns">
+                                                <input class="radius" type="text" placeholder="Email" />
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="small-12 columns">
+                                                <input class="radius" type="text" placeholder="Name" />
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="small-12 columns">
+                                                <input class="radius" type="text" placeholder="Subject" />
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="small-12 columns">
+                                                <textarea class="radius" placeholder="Message"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="large-12 columns form-button">
+                                                <a role="button" aria-label="submit form" href="#" class="button expand tiny radius">Submit</a>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>	
+
+                </div><!-- /fancyload -->
+            </div><!-- /ip-main -->
+            <div class="container">
+                <div class="footer footer-custom" id="footer">
+                    <div class="row">
+                        <div class="medium-2 columns text-center social">
+                            <span class="fa fa-fw fa-facebook" data-social="fb"></span>
+                            <span class="fa fa-fw fa-twitter" data-social="tw"></span> <br>
+                            <p class="pholder animated fadeIn">social</p>
+                            <p class="fb-content animated hide">Like us on facebook</p> 
+                            <p class="tw-content animated hide">Follow us on Twitter</p>
+                        </div>
+                        <div class="medium-4 columns misc text-center">
+                            <span class="fa fa-barcode" style="font-size: 40px;"></span><br>
+                            <a href="http://www.productclicker.com" class="pclink">productclicker.com</a>
+                            <p class="releveant">For product photography.</p>
+                        </div>
+                        <div class="medium-4 columns misc text-center vk">
+                            <a href="" class="pclink vklink">vishalkadamphotography.com</a>
+                            <p class="releveant">For wedding photography.</p>
+                        </div>
+                        <div class="medium-2 columns credits">
+                            <p>Developed by <br> <span class="ter-color animated" id="enliven">Enliven art studio</span> </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/classie.js"></script>
+        <script src="js/pathLoader.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
