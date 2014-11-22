@@ -558,12 +558,13 @@ section {
   .footer a {
     color: #fff; }
   .footer .social {
-    height: 100px;
-    border-right: 1px solid #555; }
+    height: 100px; }
     .footer .social .pholder {
       padding-top: 12px;
       font-weight: 200;
       font-size: 20px; }
+    .footer .social .fa {
+      cursor: pointer; }
   .footer .fa {
     font-size: 30px;
     padding: 5px 10px;
@@ -587,7 +588,7 @@ section {
     .footer .misc .vklink {
       font-size: 20px; }
   .footer .vk {
-    padding-top: 30px; }
+    padding-top: 52px; }
   .footer .links {
     height: 100px;
     border-right: 1px solid #555;
@@ -602,9 +603,7 @@ section {
   .footer .pc-logo {
     display: block;
     margin: 0px auto;
-    width: 65px;
-    height: 50px;
-    margin-bottom: -1px; }
+    width: 160px; }
 
 #contact .textinfo {
   margin-top: 35px;

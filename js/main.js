@@ -49,7 +49,7 @@ function moveProgressBar() {
         var simulationFn = function(instance) {
             var progress = 0,
                 interval = setInterval( function() {
-                    progress = Math.min( progress + Math.random() * 0.03, 1 );
+                    progress = Math.min( progress + Math.random() * 1, 1 );
                     var percen = Math.ceil(progress*100);
                     $('#ip-progr').data('progress-percent', percen);
                     moveProgressBar();
