@@ -649,7 +649,8 @@ section {
   width: 220px;
   margin: 5px; }
 .cat-page .fas {
-  padding: 10px; }
+  padding: 10px;
+  background-color: #333; }
 
 .profile-category .item {
   border: 1px solid #ccc; }
@@ -686,6 +687,8 @@ section {
     height: 150px; }
   .interior-category .no-subhead {
     padding-top: 30px; }
+  .interior-category .overlay-darker {
+    padding: 10px; }
   .interior-category #des-360 {
     background: url("../img/work/interior_thumbs/1.jpg") no-repeat;
     background-size: cover; }
