@@ -5,3 +5,7 @@ img/work/
 
 #files
 Gruntfile.js
+
+#uploadLink
+#git ftp push -u circlro6 -p - ftpes://circleframeproductions.com/public_html.
+#pw aniketvishal123
