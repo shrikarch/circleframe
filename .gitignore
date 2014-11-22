@@ -1,7 +1,7 @@
-.sass-cache/
-node_modules/
-sass/
-img/
+/.sass-cache
+/node_modules
+/sass
+/img
 
 #files
 Gruntfile.js
