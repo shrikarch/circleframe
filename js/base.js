@@ -1,10 +1,6 @@
 $(document).ready(function() {
 
-    $(window).scroll(function() {
-        if($(window).scrollTop() + $(window).height() == $(document).height()) {
-            $('#enliven-info, #dev-info').delay(400).slideDown();
-        }
-    });
+
 
     $('.credits').mouseover(function(){
         $('#enliven-info, #dev-info').delay(400).slideDown();

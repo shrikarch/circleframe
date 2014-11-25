@@ -390,7 +390,7 @@ section {
   color: #ffc125; }
 
 .navigation {
-  margin-top: 60px;
+  margin-top: 80px;
   margin-bottom: 60px; }
   .navigation .nav {
     padding-left: 11px;
@@ -413,7 +413,7 @@ section {
   height: 460px; }
   .totalheight .categoryname {
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 27px;
     position: absolute;
     bottom: 20px;
     width: 100%;
@@ -465,7 +465,7 @@ section {
     background-position: center; }
     .totalheight #interior .categoryname {
       letter-spacing: 1px;
-      line-height: 20px;
+      line-height: 26px;
       padding-bottom: 12px; }
       .totalheight #interior .categoryname .amphersant {
         text-transform: uppercase;
@@ -608,13 +608,15 @@ section {
     height: 50px;
     margin-bottom: -1px; }
   .footer .pc-logo-index {
+    padding-top: 10px;
     display: block;
     margin: 0px auto;
-    width: 160px; }
+    width: 120px; }
   .footer .vk-index {
-    padding-top: 52px; }
+    padding-top: 45px; }
 
 .temp-index-footer .social {
+  padding-top: 28px;
   border-right: 0px solid #555; }
 
 #contact .textinfo {
@@ -647,10 +649,10 @@ section {
   padding-left: 5px;
   letter-spacing: 4.5px; }
 .cat-page .catg-name {
-  padding-top: 20px;
+  padding-top: 45px;
   color: #fff;
   font-weight: 200;
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
   text-transform: uppercase; }
 .cat-page .catg-name-temp {
@@ -705,7 +707,7 @@ section {
     width: 300px;
     height: 150px; }
   .interior-category .no-subhead {
-    padding-top: 30px; }
+    padding-top: 45px; }
   .interior-category .overlay-darker {
     padding: 10px; }
   .interior-category #des-360 {
@@ -733,7 +735,7 @@ section {
 .int-sub-cat {
   padding-bottom: 40px; }
   .int-sub-cat .catg-name {
-    font-size: 25px; }
+    font-size: 20px; }
   .int-sub-cat .other {
     font-size: 12px;
     padding-top: 0px; }

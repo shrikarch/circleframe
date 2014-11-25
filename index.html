@@ -20,6 +20,7 @@
         <script src="js/base.js"></script>
         <script src="js/jquery.smooth-scroll.js"></script>
         <script src="js/device.min.js"></script>
+        <script src="js/headhesive.min.js"></script>
 
     </head>
     <body class="demo-1">
@@ -48,7 +49,7 @@
             <!-- main content -->
             <div class="ip-main">
                 <div class="fancyload">
-                    <div class="container navigation">
+                    <div class="container navigation" id="sticker">
                         <div class="medium-8 medium-centered columns text-center">
                             <span class="nav"><a href="#about" class="sline">ABOUT</a> | <a href="#contact" class="sline">CONTACT</a></span>
                         </div>
@@ -59,7 +60,7 @@
                                 <div class="row box">
                                     <div class="sameheight medium-7 columns" id="interior">
                                         <div class="overlay">
-                                            <a href="interior.html"><span class="categoryname">Architecture <br> <span class="amphersant">&</span> <br> Interior</span>
+                                            <a href="interior.html"><span class="categoryname">Architecture <br> & Interior</span>
                                                 <span class="subhead intr-p">photography</span></a>
                                             <a href="interior.html"><img src="img/thumbs/transp.png" alt="" class="transparent"></a>
                                         </div>
@@ -76,7 +77,7 @@
                                 <div class="row box">
                                     <div class="sameheight medium-5 columns" id="industrial">
                                         <div class="overlay">
-                                            <a href="documentaries.html"><span class="categoryname docs-cat-text">Documentaries <br> <span class="amphersant">&</span> <br> Short Films</span> 
+                                            <a href="documentaries.html"><span class="categoryname docs-cat-text">Documentaries <br>& Short Films</span>
                                                 <span class="subhead doc-p">coming  soon</span></a>
                                             <a href="documentaries.html"><img src="img/thumbs/transp.png" alt="" class="transparent"></a>
                                         </div>
@@ -111,49 +112,30 @@
 
                     <div class="container about" id="contact">
                         <div class="row">
-                            <div class="medium-6 medium-centered columns text-center">
+                            <div class="medium-10 medium-centered columns text-center">
                                 <span class="head" style="padding-left:5px;">CONTACT US</span>
-                                <div class="small-12 medium-12 large-8 small-centered columns textinfo">
-                                    <span class="name">Aniket Pawar</span> <br>
-                                    Commercial Photographer <br>
-                                    <span class="ph-no">9930067087</span> <br>
-                                    ani@circleframeproductions.com <br>
-                                    -- <br>
+                                <div class="row textinfo">
+                                    <div class="large-6 medium-6 small-12 columns" style="text-align:right;">
+                                        <div>
+                                            <span class="name">Aniket Pawar</span> <br>
+                                            Commercial Photographer <br>
+                                            <span class="ph-no">9930067087</span> <br>
+                                            <span style="padding-right:5px;">ani@circleframeproductions.com</span>
+                                        </div>
+                                    </div>
 
-                                    <span class="name">Vishal Kadam</span> <br>
-                                    Commercial Photographer <br>
-                                    <span class="ph-no">9930925612</span> <br>
-                                    vishal@circleframeproductions.com
-                                </div>
+                                    <div class="show-for-small-only">
+                                        <br> -- <br>
+                                    </div>
 
-                                <div class="hide small-12 medium-12 large-8 small-centered columns form-section">
-                                    <form action="">
-                                        <div class="row">
-                                            <div class="small-12 columns">
-                                                <input class="radius" type="text" placeholder="Email" />
-                                            </div>
+                                    <div class="large-6 medium-6 small-12 columns" style="text-align:left; border-left:1px solid #999;">
+                                        <div style="margin-left:1px;">
+                                            <span class="name">Vishal Kadam</span> <br>
+                                            Commercial Photographer <br>
+                                            <span class="ph-no">9930925612</span> <br>
+                                            vishal@circleframeproductions.com
                                         </div>
-                                        <div class="row">
-                                            <div class="small-12 columns">
-                                                <input class="radius" type="text" placeholder="Name" />
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="small-12 columns">
-                                                <input class="radius" type="text" placeholder="Subject" />
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="small-12 columns">
-                                                <textarea class="radius" placeholder="Message"></textarea>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="large-12 columns form-button">
-                                                <a role="button" aria-label="submit form" href="#" class="button expand tiny radius">Submit</a>
-                                            </div>
-                                        </div>
-                                    </form>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -165,10 +147,7 @@
                 <div class="footer footer-custom temp-index-footer" id="footer">
                     <div class="row">
                         <div class="medium-4 columns misc text-center">
-                          <img src="img/thumbs/pc-logo.png" class="pc-logo-index" alt="">
-                           <!-- <img src="img/pc-logo-abstract-2.png" alt="" class="pc-logo">
-                            <a href="http://www.productclicker.com" class="pclink">productclicker.com</a>
-                            <p class="releveant">For product photography.</p> -->
+                            <a href="http://www.productclicker.com"><img src="img/thumbs/pc-logo.png" class="pc-logo-index" alt=""></a>
                         </div>
                         <div class="medium-4 columns misc text-center vk-index">
                             <a href="" class="pclink vklink">vishalkadamphotography.com</a>
@@ -180,7 +159,6 @@
                         <div class="medium-4 columns text-center social">
                             <span class="fa fa-fw fa-facebook" data-social="fb"></span>
                             <span class="fa fa-fw fa-twitter" data-social="tw"></span> <br>
-                            <p class="pholder animated fadeIn">social</p>
                             <p class="fb-content animated hide">Like us on facebook</p>
                             <p class="tw-content animated hide">Follow us on Twitter</p>
                         </div>
