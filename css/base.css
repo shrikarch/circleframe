@@ -21,7 +21,7 @@
   min-height: 480px;
   width: 100%;
   height: 100%;
-  background: #f1f1f1; }
+  background: #fff; }
 
 .ip-header h1 {
   margin: 0; }
@@ -336,7 +336,7 @@ section {
 
 .progress {
   width: 100%;
-  height: 5px; }
+  height: 1px; }
 
 .progress-wrap {
   background: #0080ff;
@@ -408,6 +408,31 @@ section {
       margin-right: 20px; }
     .navigation .nav a:nth-child(2) {
       margin-left: 20px; }
+
+.row-nav {
+  margin-top: 100px;
+  background-color: #333;
+  margin-bottom: 2.5px; }
+  .row-nav a {
+    color: #aaa;
+    font-size: 14px;
+    -webkit-transition: color 0.5s;
+    /* For Safari 3.1 to 6.0 */
+    transition: color 0.5s;
+    -moz-transition: color 0.5s;
+    -o-transition: color 0.5s; }
+  .row-nav .medium-4 {
+    padding: 5px 0px;
+    background-color: #333;
+    -webkit-transition: background-color 0.5s;
+    /* For Safari 3.1 to 6.0 */
+    transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s; }
+  .row-nav .medium-4:hover {
+    background-color: #111; }
+    .row-nav .medium-4:hover a {
+      color: #fff; }
 
 .totalheight {
   height: 460px; }
@@ -541,6 +566,9 @@ section {
 .about p {
   margin-top: 35px;
   letter-spacing: 3px; }
+
+.abt-text {
+  font-size: 14px; }
 
 .form-section {
   margin-top: 30px; }
