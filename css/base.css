@@ -567,6 +567,9 @@ section {
   margin-top: 35px;
   letter-spacing: 3px; }
 
+#about-texts p {
+  letter-spacing: 0.5px; }
+
 .abt-text {
   font-size: 14px; }
 
