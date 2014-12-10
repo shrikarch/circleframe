@@ -12,13 +12,17 @@
         <link rel="stylesheet" href="css/style.min.css">
         <link rel="stylesheet" href="css/animate.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/lightbox.css">
+        <!-- <link rel="stylesheet" href="css/lightbox.css"> -->
+
+        <link rel="stylesheet" href="css/colorbox.css">
 
         <script src="js/jquery-2.1.1.min.js"></script>
         <script src="js/imagesloaded.pkgd.min.js"></script>
         <script src="js/masonry.pkgd.min.js"></script>
-        <script src="js/lightbox.min.js"></script>
+        <!-- <script src="js/lightbox.min.js"></script> -->
         <script src="js/base.js"></script>
+
+        <script src="js/jquery.colorbox-min.js"></script>
 
         <style>
 
@@ -43,8 +47,8 @@
                 <div class="item fas animated fadeIn">
                     <p class="catg-name-temp"><a href="interior.html" class="lift">back</a></p>
                 </div>
-                <div class="item animated fadeIn"><a href="img/work/interior_large/39.jpg" data-lightbox="logoweb"><img src="img/work/interior_thumbs/39.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/interior_large/40.jpg" data-lightbox="logoweb"><img src="img/work/interior_thumbs/40.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/interior_large/39.jpg" data-lightbox="logoweb" class="gallery"><img src="img/work/interior_thumbs/39.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/interior_large/40-1.jpg" data-lightbox="logoweb"><img src="img/work/interior_thumbs/40.jpg" alt=""></a></div>
                 <div class="item animated fadeIn"><a href="img/work/interior_large/41.jpg" data-lightbox="logoweb"><img src="img/work/interior_thumbs/41.jpg" alt=""></a></div>
                 <div class="item animated fadeIn"><a href="img/work/interior_large/42.jpg" data-lightbox="logoweb"><img src="img/work/interior_thumbs/42.jpg" alt=""></a></div>
                 <div class="item animated fadeIn"><a href="img/work/interior_large/43.jpg" data-lightbox="logoweb"><img src="img/work/interior_thumbs/43.jpg" alt=""></a></div>
@@ -63,31 +67,32 @@
         </div>
         <div class="container">
             <div class="footer footer-custom temp-index-footer" id="footer">
-                    <div class="row">
-                        <div class="medium-4 columns misc text-center">
-                            <a href="http://www.productclicker.com"><img src="img/thumbs/pc-logo.png" class="pc-logo-index" alt=""></a>
-                        </div>
-                        <div class="medium-4 columns misc text-center vk-index">
-                            <a href="" class="pclink vklink">vishalkadamphotography.com</a>
-                            <p class="releveant">For wedding photography.</p>
-                        </div>
-                        <div class="medium-2 hide columns credits">
-                            <p>Developed by <br> <span class="ter-color animated" id="enliven">Enliven art studio</span> </p>
-                        </div>
-                        <div class="medium-4 columns text-center social">
-                            <span class="fa fa-fw fa-facebook" data-social="fb"></span>
-                            <span class="fa fa-fw fa-twitter" data-social="tw"></span> <br>
-                            <p class="fb-content animated hide">Like us on facebook</p>
-                            <p class="tw-content animated hide">Follow us on Twitter</p>
-                        </div>
+                <div class="row">
+                    <div class="medium-4 columns misc text-center">
+                        <a href="http://www.productclicker.com"><img src="img/thumbs/pc-logo.png" class="pc-logo-index" alt=""></a>
+                    </div>
+                    <div class="medium-4 columns misc text-center vk-index">
+                        <a href="" class="pclink vklink">vishalkadamphotography.com</a>
+                        <p class="releveant">For wedding photography.</p>
+                    </div>
+                    <div class="medium-2 hide columns credits">
+                        <p>Developed by <br> <span class="ter-color animated" id="enliven">Enliven art studio</span> </p>
+                    </div>
+                    <div class="medium-4 columns text-center social">
+                        <span class="fa fa-fw fa-facebook" data-social="fb"></span>
+                        <span class="fa fa-fw fa-twitter" data-social="tw"></span> <br>
+                        <p class="fb-content animated hide">Like us on facebook</p>
+                        <p class="tw-content animated hide">Follow us on Twitter</p>
                     </div>
                 </div>
+            </div>
         </div>
 
         <script>
             var container = document.querySelector('#container');
             var msnry;
             imagesLoaded( container, function() {
+                $('.item a').colorbox({title:"false", scalePhotos:"true", maxHeight:"100%"});
                 msnry = new Masonry( container,{
                     // options
                     itemSelector: '.item',
@@ -95,6 +100,13 @@
                     isAnimate: true,
 
                 } );
+            });
+
+
+        </script>
+        <script>
+            $(document).ready(function(){
+console.log('ssd');
             });
         </script>
     </body>
