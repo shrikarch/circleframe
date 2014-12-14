@@ -12,12 +12,12 @@
         <link rel="stylesheet" href="css/style.min.css">
         <link rel="stylesheet" href="css/animate.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/lightbox.css">
+        <link rel="stylesheet" href="css/blueimp-gallery.min.css">
 
         <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
         <script src="js/imagesloaded.pkgd.min.js"></script>
         <script src="js/masonry.pkgd.min.js"></script>
-        <script src="js/lightbox.min.js"></script>
+        <script src="js/jquery.blueimp-gallery.min.js"></script>
         <script src="js/base.js"></script>
 
     </head>
@@ -35,80 +35,89 @@
                 <a href="#" class="active">TRAVEL</a> - 
                 <a href="documentaries.html">DOCUMENTARIES & SHORT FILMS</a>
             </div>
+             <div id="blueimp-gallery" class="blueimp-gallery">
+                <div class="slides"></div>
+                <h3 class="title"></h3>
+                <a class="prev">‹</a>
+                <a class="next">›</a>
+                <a class="close">×</a>
+                <a class="play-pause"></a>
+                <ol class="indicator"></ol>
+            </div>
             <div class="" id="container">
                 <div class="item fas animated fadeIn">
                     <p class="catg-name">Travel</p>
                     <p class="clearfix cat-subhead fash-p">photography</p>
                 </div>
 
-                <div class="item animated fadeIn"><a href="img/work/travel_large/1.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/1.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/2.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/2.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/3.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/3.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/4.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/4.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/5.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/5.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/6.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/6.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/7.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/7.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/8.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/8.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/9.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/9.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/10.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/10.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/11.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/11.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/12.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/12.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/13.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/13.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/14.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/14.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/15.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/15.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/16.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/16.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/17.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/17.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/18.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/18.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/19.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/19.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/20.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/20.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/21.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/21.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/22.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/22.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/23.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/23.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/24.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/24.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/25.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/25.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/26.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/26.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/27.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/27.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/28.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/28.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/29.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/29.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/30.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/30.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/31.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/31.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/32.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/32.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/33.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/33.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/34.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/34.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/35.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/35.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/36.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/36.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/37.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/37.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/38.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/38.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/39.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/39.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/40.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/40.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/41.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/41.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/42.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/42.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/43.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/43.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/44.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/44.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/45.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/45.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/46.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/46.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/47.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/47.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/48.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/48.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/49.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/49.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/50.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/50.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/51.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/51.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/52.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/52.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/53.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/53.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/54.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/54.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/55.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/55.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/56.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/56.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/57.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/57.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/58.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/58.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/59.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/59.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/60.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/60.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/61.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/61.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/62.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/62.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/63.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/63.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/64.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/64.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/65.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/65.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/66.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/66.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/67.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/67.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/travel_large/68.jpg" data-lightbox="travelGrid"><img src="img/work/travel_thumbs/68.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/1.jpg" data-gallery><img src="img/work/travel_thumbs/1.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/2.jpg" data-gallery><img src="img/work/travel_thumbs/2.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/3.jpg" data-gallery><img src="img/work/travel_thumbs/3.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/4.jpg" data-gallery><img src="img/work/travel_thumbs/4.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/5.jpg" data-gallery><img src="img/work/travel_thumbs/5.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/6.jpg" data-gallery><img src="img/work/travel_thumbs/6.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/7.jpg" data-gallery><img src="img/work/travel_thumbs/7.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/8.jpg" data-gallery><img src="img/work/travel_thumbs/8.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/9.jpg" data-gallery><img src="img/work/travel_thumbs/9.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/10.jpg" data-gallery><img src="img/work/travel_thumbs/10.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/11.jpg" data-gallery><img src="img/work/travel_thumbs/11.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/12.jpg" data-gallery><img src="img/work/travel_thumbs/12.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/13.jpg" data-gallery><img src="img/work/travel_thumbs/13.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/14.jpg" data-gallery><img src="img/work/travel_thumbs/14.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/15.jpg" data-gallery><img src="img/work/travel_thumbs/15.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/16.jpg" data-gallery><img src="img/work/travel_thumbs/16.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/17.jpg" data-gallery><img src="img/work/travel_thumbs/17.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/18.jpg" data-gallery><img src="img/work/travel_thumbs/18.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/19.jpg" data-gallery><img src="img/work/travel_thumbs/19.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/20.jpg" data-gallery><img src="img/work/travel_thumbs/20.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/21.jpg" data-gallery><img src="img/work/travel_thumbs/21.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/22.jpg" data-gallery><img src="img/work/travel_thumbs/22.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/23.jpg" data-gallery><img src="img/work/travel_thumbs/23.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/24.jpg" data-gallery><img src="img/work/travel_thumbs/24.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/25.jpg" data-gallery><img src="img/work/travel_thumbs/25.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/26.jpg" data-gallery><img src="img/work/travel_thumbs/26.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/27.jpg" data-gallery><img src="img/work/travel_thumbs/27.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/28.jpg" data-gallery><img src="img/work/travel_thumbs/28.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/29.jpg" data-gallery><img src="img/work/travel_thumbs/29.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/30.jpg" data-gallery><img src="img/work/travel_thumbs/30.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/31.jpg" data-gallery><img src="img/work/travel_thumbs/31.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/32.jpg" data-gallery><img src="img/work/travel_thumbs/32.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/33.jpg" data-gallery><img src="img/work/travel_thumbs/33.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/34.jpg" data-gallery><img src="img/work/travel_thumbs/34.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/35.jpg" data-gallery><img src="img/work/travel_thumbs/35.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/36.jpg" data-gallery><img src="img/work/travel_thumbs/36.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/37.jpg" data-gallery><img src="img/work/travel_thumbs/37.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/38.jpg" data-gallery><img src="img/work/travel_thumbs/38.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/39.jpg" data-gallery><img src="img/work/travel_thumbs/39.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/40.jpg" data-gallery><img src="img/work/travel_thumbs/40.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/41.jpg" data-gallery><img src="img/work/travel_thumbs/41.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/42.jpg" data-gallery><img src="img/work/travel_thumbs/42.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/43.jpg" data-gallery><img src="img/work/travel_thumbs/43.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/44.jpg" data-gallery><img src="img/work/travel_thumbs/44.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/45.jpg" data-gallery><img src="img/work/travel_thumbs/45.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/46.jpg" data-gallery><img src="img/work/travel_thumbs/46.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/47.jpg" data-gallery><img src="img/work/travel_thumbs/47.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/48.jpg" data-gallery><img src="img/work/travel_thumbs/48.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/49.jpg" data-gallery><img src="img/work/travel_thumbs/49.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/50.jpg" data-gallery><img src="img/work/travel_thumbs/50.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/51.jpg" data-gallery><img src="img/work/travel_thumbs/51.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/52.jpg" data-gallery><img src="img/work/travel_thumbs/52.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/53.jpg" data-gallery><img src="img/work/travel_thumbs/53.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/54.jpg" data-gallery><img src="img/work/travel_thumbs/54.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/55.jpg" data-gallery><img src="img/work/travel_thumbs/55.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/56.jpg" data-gallery><img src="img/work/travel_thumbs/56.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/57.jpg" data-gallery><img src="img/work/travel_thumbs/57.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/58.jpg" data-gallery><img src="img/work/travel_thumbs/58.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/59.jpg" data-gallery><img src="img/work/travel_thumbs/59.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/60.jpg" data-gallery><img src="img/work/travel_thumbs/60.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/61.jpg" data-gallery><img src="img/work/travel_thumbs/61.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/62.jpg" data-gallery><img src="img/work/travel_thumbs/62.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/63.jpg" data-gallery><img src="img/work/travel_thumbs/63.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/64.jpg" data-gallery><img src="img/work/travel_thumbs/64.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/65.jpg" data-gallery><img src="img/work/travel_thumbs/65.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/66.jpg" data-gallery><img src="img/work/travel_thumbs/66.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/67.jpg" data-gallery><img src="img/work/travel_thumbs/67.jpg" alt=""></a></div>
+                <div class="item animated fadeIn"><a href="img/work/travel_large/68.jpg" data-gallery><img src="img/work/travel_thumbs/68.jpg" alt=""></a></div>
 
             </div>
         </div>

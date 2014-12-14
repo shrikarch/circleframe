@@ -12,17 +12,12 @@
         <link rel="stylesheet" href="css/style.min.css">
         <link rel="stylesheet" href="css/animate.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
-        <!-- <link rel="stylesheet" href="css/lightbox.css"> -->
-
-        <link rel="stylesheet" href="css/colorbox.css">
+        <link rel="stylesheet" href="css/blueimp-gallery.min.css">
 
         <script src="js/jquery-2.1.1.min.js"></script>
         <script src="js/imagesloaded.pkgd.min.js"></script>
         <script src="js/masonry.pkgd.min.js"></script>
-        <!-- <script src="js/lightbox.min.js"></script> -->
         <script src="js/base.js"></script>
-
-        <script src="js/jquery.colorbox-min.js"></script>
 
         <style>
             #cboxContent{
@@ -47,25 +42,37 @@
                 <a href="travel.html">TRAVEL</a> - 
                 <a href="documentaries.html">DOCUMENTARIES & SHORT FILMS</a>
             </div>
+            <div id="blueimp-gallery" class="blueimp-gallery">
+                <div class="slides"></div>
+                <h3 class="title"></h3>
+                <a class="prev">‹</a>
+                <a class="next">›</a>
+                <a class="close">×</a>
+                <a class="play-pause"></a>
+                <ol class="indicator"></ol>
+            </div>
+
             <div id="container" class="int-sub-cat">
                 <div class="item fas animated fadeIn">
                     <p class="catg-name-temp"><a href="interior.html" class="lift">back</a></p>
                 </div>
-                <div class="item animated fadeIn"><a href="img/work/interior_large/39.jpg" data-lightbox="logoweb" class="gallery"><img src="img/work/interior_thumbs/39.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/interior_large/40-1.jpg" data-lightbox="logoweb"><img src="img/work/interior_thumbs/40.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/interior_large/41.jpg" data-lightbox="logoweb"><img src="img/work/interior_thumbs/41.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/interior_large/42.jpg" data-lightbox="logoweb"><img src="img/work/interior_thumbs/42.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/interior_large/43.jpg" data-lightbox="logoweb"><img src="img/work/interior_thumbs/43.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/interior_large/44.jpg" data-lightbox="logoweb"><img src="img/work/interior_thumbs/44.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/interior_large/45.jpg" data-lightbox="logoweb"><img src="img/work/interior_thumbs/45.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/interior_large/46.jpg" data-lightbox="logoweb"><img src="img/work/interior_thumbs/46.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/interior_large/47.jpg" data-lightbox="logoweb"><img src="img/work/interior_thumbs/47.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/interior_large/48.jpg" data-lightbox="logoweb"><img src="img/work/interior_thumbs/48.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/interior_large/49.jpg" data-lightbox="logoweb"><img src="img/work/interior_thumbs/49.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/interior_large/50.jpg" data-lightbox="logoweb"><img src="img/work/interior_thumbs/50.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/interior_large/51.jpg" data-lightbox="logoweb"><img src="img/work/interior_thumbs/51.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/interior_large/52.jpg" data-lightbox="logoweb"><img src="img/work/interior_thumbs/52.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/interior_large/53.jpg" data-lightbox="logoweb"><img src="img/work/interior_thumbs/53.jpg" alt=""></a></div>
+                <div id="links">
+                    <div class="item animated fadeIn"><a href="img/work/interior_large/39.jpg" class="gallery" data-gallery><img src="img/work/interior_thumbs/39.jpg" alt=""></a></div>
+                    <div class="item animated fadeIn"><a href="img/work/interior_large/40-1.jpg" data-gallery><img src="img/work/interior_thumbs/40.jpg" alt=""></a></div>
+                    <div class="item animated fadeIn"><a href="img/work/interior_large/41.jpg" data-gallery><img src="img/work/interior_thumbs/41.jpg" alt=""></a></div>
+                    <div class="item animated fadeIn"><a href="img/work/interior_large/42.jpg" data-gallery><img src="img/work/interior_thumbs/42.jpg" alt=""></a></div>
+                    <div class="item animated fadeIn"><a href="img/work/interior_large/43.jpg" data-gallery><img src="img/work/interior_thumbs/43.jpg" alt=""></a></div>
+                    <div class="item animated fadeIn"><a href="img/work/interior_large/44.jpg" data-gallery><img src="img/work/interior_thumbs/44.jpg" alt=""></a></div>
+                    <div class="item animated fadeIn"><a href="img/work/interior_large/45.jpg" data-gallery><img src="img/work/interior_thumbs/45.jpg" alt=""></a></div>
+                    <div class="item animated fadeIn"><a href="img/work/interior_large/46.jpg" data-gallery><img src="img/work/interior_thumbs/46.jpg" alt=""></a></div>
+                    <div class="item animated fadeIn"><a href="img/work/interior_large/47.jpg" data-gallery><img src="img/work/interior_thumbs/47.jpg" alt=""></a></div>
+                    <div class="item animated fadeIn"><a href="img/work/interior_large/48.jpg" data-gallery><img src="img/work/interior_thumbs/48.jpg" alt=""></a></div>
+                    <div class="item animated fadeIn"><a href="img/work/interior_large/49.jpg" data-gallery><img src="img/work/interior_thumbs/49.jpg" alt=""></a></div>
+                    <div class="item animated fadeIn"><a href="img/work/interior_large/50.jpg" data-gallery><img src="img/work/interior_thumbs/50.jpg" alt=""></a></div>
+                    <div class="item animated fadeIn"><a href="img/work/interior_large/51.jpg" data-gallery><img src="img/work/interior_thumbs/51.jpg" alt=""></a></div>
+                    <div class="item animated fadeIn"><a href="img/work/interior_large/52.jpg" data-gallery><img src="img/work/interior_thumbs/52.jpg" alt=""></a></div>
+                    <div class="item animated fadeIn"><a href="img/work/interior_large/53.jpg" data-gallery><img src="img/work/interior_thumbs/53.jpg" alt=""></a></div>
+                </div>
 
             </div>
         </div>
@@ -91,12 +98,11 @@
                 </div>
             </div>
         </div>
-
+        <script src="js/jquery.blueimp-gallery.min.js"></script>
         <script>
             var container = document.querySelector('#container');
             var msnry;
             imagesLoaded( container, function() {
-                $('.item a').colorbox({title:"false", scalePhotos:"true", maxHeight:"100%"});
                 msnry = new Masonry( container,{
                     // options
                     itemSelector: '.item',
@@ -108,11 +114,7 @@
 
 
         </script>
-        <script>
-            $(document).ready(function(){
-console.log('ssd');
-            });
-        </script>
+
     </body>
 
 </html>

@@ -12,12 +12,11 @@
         <link rel="stylesheet" href="css/style.min.css">
         <link rel="stylesheet" href="css/animate.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/lightbox.css">
+        <link rel="stylesheet" href="css/blueimp-gallery.min.css">
 
         <script src="js/jquery-2.1.1.min.js"></script>
         <script src="js/imagesloaded.pkgd.min.js"></script>
         <script src="js/masonry.pkgd.min.js"></script>
-        <script src="js/lightbox.min.js"></script>
         <script src="js/base.js"></script>
 
         <style>
@@ -39,46 +38,57 @@
                 <a href="travel.html">TRAVEL</a> - 
                 <a href="documentaries.html">DOCUMENTARIES & SHORT FILMS</a>
             </div>
+            <div id="blueimp-gallery" class="blueimp-gallery">
+                <div class="slides"></div>
+                <h3 class="title"></h3>
+                <a class="prev">‹</a>
+                <a class="next">›</a>
+                <a class="close">×</a>
+                <a class="play-pause"></a>
+                <ol class="indicator"></ol>
+            </div>
             <div id="container" class="int-sub-cat">
                 <div class="item fas animated fadeIn">
                     <p class="catg-name-temp"><a href="interior.html" class="lift">back</a></p>
                 </div>
-                <div class="item animated fadeIn"><a href="img/work/interior_large/29.jpg" data-lightbox="logoweb"><img src="img/work/interior_thumbs/29.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/interior_large/30.jpg" data-lightbox="logoweb"><img src="img/work/interior_thumbs/30.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/interior_large/31.jpg" data-lightbox="logoweb"><img src="img/work/interior_thumbs/31.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/interior_large/32.jpg" data-lightbox="logoweb"><img src="img/work/interior_thumbs/32.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/interior_large/33.jpg" data-lightbox="logoweb"><img src="img/work/interior_thumbs/33.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/interior_large/34.jpg" data-lightbox="logoweb"><img src="img/work/interior_thumbs/34.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/interior_large/35.jpg" data-lightbox="logoweb"><img src="img/work/interior_thumbs/35.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/interior_large/36.jpg" data-lightbox="logoweb"><img src="img/work/interior_thumbs/36.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/interior_large/37.jpg" data-lightbox="logoweb"><img src="img/work/interior_thumbs/37.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/interior_large/38.jpg" data-lightbox="logoweb"><img src="img/work/interior_thumbs/38.jpg" alt=""></a></div>
+                <div id="links">
+                    <div class="item animated fadeIn"><a href="img/work/interior_large/29.jpg" data-gallery><img src="img/work/interior_thumbs/29.jpg" alt=""></a></div>
+                    <div class="item animated fadeIn"><a href="img/work/interior_large/30.jpg" data-gallery><img src="img/work/interior_thumbs/30.jpg" alt=""></a></div>
+                    <div class="item animated fadeIn"><a href="img/work/interior_large/31.jpg" data-gallery><img src="img/work/interior_thumbs/31.jpg" alt=""></a></div>
+                    <div class="item animated fadeIn"><a href="img/work/interior_large/32.jpg" data-gallery><img src="img/work/interior_thumbs/32.jpg" alt=""></a></div>
+                    <div class="item animated fadeIn"><a href="img/work/interior_large/33.jpg" data-gallery><img src="img/work/interior_thumbs/33.jpg" alt=""></a></div>
+                    <div class="item animated fadeIn"><a href="img/work/interior_large/34.jpg" data-gallery><img src="img/work/interior_thumbs/34.jpg" alt=""></a></div>
+                    <div class="item animated fadeIn"><a href="img/work/interior_large/35.jpg" data-gallery><img src="img/work/interior_thumbs/35.jpg" alt=""></a></div>
+                    <div class="item animated fadeIn"><a href="img/work/interior_large/36.jpg" data-gallery><img src="img/work/interior_thumbs/36.jpg" alt=""></a></div>
+                    <div class="item animated fadeIn"><a href="img/work/interior_large/37.jpg" data-gallery><img src="img/work/interior_thumbs/37.jpg" alt=""></a></div>
+                    <div class="item animated fadeIn"><a href="img/work/interior_large/38.jpg" data-gallery><img src="img/work/interior_thumbs/38.jpg" alt=""></a></div>
+                </div>
 
             </div>
         </div>
         <div class="container">
             <div class="footer footer-custom temp-index-footer" id="footer">
-                    <div class="row">
-                        <div class="medium-4 columns misc text-center">
-                            <a href="http://www.productclicker.com"><img src="img/thumbs/pc-logo.png" class="pc-logo-index" alt=""></a>
-                        </div>
-                        <div class="medium-4 columns misc text-center vk-index">
-                            <a href="" class="pclink vklink">vishalkadamphotography.com</a>
-                            <p class="releveant">For wedding photography.</p>
-                        </div>
-                        <div class="medium-2 hide columns credits">
-                            <p>Developed by <br> <span class="ter-color animated" id="enliven">Enliven art studio</span> </p>
-                        </div>
-                        <div class="medium-4 columns text-center social">
-                            <span class="fa fa-fw fa-facebook" data-social="fb"></span>
-                            <span class="fa fa-fw fa-twitter" data-social="tw"></span> <br>
-                            <p class="fb-content animated hide">Like us on facebook</p>
-                            <p class="tw-content animated hide">Follow us on Twitter</p>
-                        </div>
+                <div class="row">
+                    <div class="medium-4 columns misc text-center">
+                        <a href="http://www.productclicker.com"><img src="img/thumbs/pc-logo.png" class="pc-logo-index" alt=""></a>
+                    </div>
+                    <div class="medium-4 columns misc text-center vk-index">
+                        <a href="" class="pclink vklink">vishalkadamphotography.com</a>
+                        <p class="releveant">For wedding photography.</p>
+                    </div>
+                    <div class="medium-2 hide columns credits">
+                        <p>Developed by <br> <span class="ter-color animated" id="enliven">Enliven art studio</span> </p>
+                    </div>
+                    <div class="medium-4 columns text-center social">
+                        <span class="fa fa-fw fa-facebook" data-social="fb"></span>
+                        <span class="fa fa-fw fa-twitter" data-social="tw"></span> <br>
+                        <p class="fb-content animated hide">Like us on facebook</p>
+                        <p class="tw-content animated hide">Follow us on Twitter</p>
                     </div>
                 </div>
+            </div>
         </div>
-
+        <script src="js/jquery.blueimp-gallery.min.js"></script>
         <script>
             var container = document.querySelector('#container');
             var msnry;
