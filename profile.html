@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>CircleFrame Productions | Profile</title>
+        <title>CircleFrame Productions | Interior</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
         <link rel="shortcut icon" href="img/favicon.png">
@@ -12,105 +12,82 @@
         <link rel="stylesheet" href="css/style.min.css">
         <link rel="stylesheet" href="css/animate.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/blueimp-gallery.min.css">
+        <link rel="stylesheet" href="css/lightbox.css">
 
-        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="js/jquery-2.1.1.min.js"></script>
         <script src="js/imagesloaded.pkgd.min.js"></script>
         <script src="js/masonry.pkgd.min.js"></script>
+        <script src="js/lightbox.min.js"></script>
         <script src="js/base.js"></script>
+
+        <style>
+            .spacer{
+                margin-bottom: 100px;
+            }
+        </style>
 
     </head>
     <body>
-        <div class="container cat-page profile-category">
+        <div class="container cat-page interior-category">
             <div class="cat-header">
-                <a href="index.html"><img src="img/logocirclesmall.png" alt="" class="circlogo centered cat-logo" id="circlelogo">
+                <a href="index.html">
+                    <img src="img/logocirclesmall.png" alt="" class="circlogo centered cat-logo" id="circlelogo">
                     <img src="img/logotext.png" alt="" class="centered" id="textlogo"></a>
             </div>
             <div class="cat-nav text-center">
                 <a href="index.html">HOME</a> -
-                <a href="interior.html">INTERIOR</a> -
-                <a href="#" class="active">PROFILE</a> -
+                <a href="#" class="active">INTERIOR</a> -
+                <a href="profile.html">PROFILE</a> -
                 <a href="fashion.html">FASHION</a> -
                 <a href="travel.html">TRAVEL</a> - 
                 <a href="documentaries.html">DOCUMENTARIES & SHORT FILMS</a>
             </div>
-            <div id="blueimp-gallery" class="blueimp-gallery">
-                <div class="slides"></div>
-                <h3 class="title"></h3>
-                <a class="prev">‹</a>
-                <a class="next">›</a>
-                <a class="close">×</a>
-                <a class="play-pause"></a>
-                <ol class="indicator"></ol>
-            </div>
-            <div class="" id="container">
-                <div class="item fas animated fadeIn">
-                    <p class="catg-name">Profile</p>
-                    <p class="clearfix cat-subhead prof-p">photography</p>
+            <div class="profile-category" id="container">
+
+                <div class="item animated fadeIn" id="">
+                    <div class="overlay-darker">
+                       <p class="cat-subhead fash-p" style="margin-top:25px;"><a href="">GoDrej</a></p>
+                        <p class="catg-name" style="padding-top:0px; margin-top:-28px;"><a href="summtrainee.html">Summer</a></p>
+                        <p class="clearfix cat-subhead fash-p"><a href="tkt.html">Trainee Program</a></p>
+                    </div>
+                </div>
+                <div class="item animated fadeIn" id="">
+                    <div class="overlay-darker">
+                       <p class="cat-subhead fash-p" style="margin-top:25px;"><a href="">GoDrej</a></p>
+                        <p class="catg-name" style="padding-top:0px; margin-top:-28px;"><a href="mgmttrainee.html">Management</a></p>
+                        <p class="clearfix cat-subhead fash-p"><a href="tkt.html">Trainee Program</a></p>
+                    </div>
                 </div>
 
-                <div class="item animated fadeIn"><a href="img/work/profile_large/1-1.jpg" data-gallery><img src="img/work/profile_thumbs/1.jpg" alt=""></a></div>
-                <div class="item animated fadeIn" id="item2"><a href="img/work/profile_large/2.jpg" data-gallery><img src="img/work/profile_thumbs/2.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/profile_large/3.jpg" data-gallery><img src="img/work/profile_thumbs/3.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/profile_large/4-1.jpg" data-gallery><img src="img/work/profile_thumbs/4.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/profile_large/5.jpg" data-gallery><img src="img/work/profile_thumbs/5.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/profile_large/6.jpg" data-gallery><img src="img/work/profile_thumbs/6.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/profile_large/7.jpg" data-gallery><img src="img/work/profile_thumbs/7.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/profile_large/8.jpg" data-gallery><img src="img/work/profile_thumbs/8.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/profile_large/9.jpg" data-gallery><img src="img/work/profile_thumbs/9.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/profile_large/10.jpg" data-gallery><img src="img/work/profile_thumbs/10.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/profile_large/11.jpg" data-gallery><img src="img/work/profile_thumbs/11.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/profile_large/12.jpg" data-gallery><img src="img/work/profile_thumbs/12.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/profile_large/13.jpg" data-gallery><img src="img/work/profile_thumbs/13.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/profile_large/14.jpg" data-gallery><img src="img/work/profile_thumbs/14.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/profile_large/15.jpg" data-gallery><img src="img/work/profile_thumbs/15.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/profile_large/16.jpg" data-gallery><img src="img/work/profile_thumbs/16.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/profile_large/17.jpg" data-gallery><img src="img/work/profile_thumbs/17.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/profile_large/18.jpg" data-gallery><img src="img/work/profile_thumbs/18.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/profile_large/19.jpg" data-gallery><img src="img/work/profile_thumbs/19.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/profile_large/20.jpg" data-gallery><img src="img/work/profile_thumbs/20.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/profile_large/21.jpg" data-gallery><img src="img/work/profile_thumbs/21.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/profile_large/22.jpg" data-gallery><img src="img/work/profile_thumbs/22.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/profile_large/23.jpg" data-gallery><img src="img/work/profile_thumbs/23.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/profile_large/24.jpg" data-gallery><img src="img/work/profile_thumbs/24.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/profile_large/25.jpg" data-gallery><img src="img/work/profile_thumbs/25.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/profile_large/26.jpg" data-gallery><img src="img/work/profile_thumbs/26.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/profile_large/27.jpg" data-gallery><img src="img/work/profile_thumbs/27.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/profile_large/28.jpg" data-gallery><img src="img/work/profile_thumbs/28.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/profile_large/29.jpg" data-gallery><img src="img/work/profile_thumbs/29.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/profile_large/30.jpg" data-gallery><img src="img/work/profile_thumbs/30.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/profile_large/31.jpg" data-gallery><img src="img/work/profile_thumbs/31.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/profile_large/32.jpg" data-gallery><img src="img/work/profile_thumbs/32.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/profile_large/33.jpg" data-gallery><img src="img/work/profile_thumbs/33.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/profile_large/34.jpg" data-gallery><img src="img/work/profile_thumbs/34.jpg" alt=""></a></div>
-                <div class="item animated fadeIn"><a href="img/work/profile_large/35.jpg" data-gallery><img src="img/work/profile_thumbs/35.jpg" alt=""></a></div>
 
+                <!-- div.item.animated.fadeIn*28>a[href="img/work/interior_thumbs/$.jpg"][data-lightbox="logoweb"]>img[src="img/work/interior_thumbs/$.jpg"] -->
 
             </div>
         </div>
+        <div class="spacer"></div>
         <div class="container">
             <div class="footer footer-custom temp-index-footer" id="footer">
-                <div class="row">
-                    <div class="medium-4 columns misc text-center">
-                        <a href="http://www.productclicker.com"><img src="img/thumbs/pc-logo.png" class="pc-logo-index" alt=""></a>
-                    </div>
-                    <div class="medium-4 columns misc text-center vk-index">
-                        <a href="" class="pclink vklink">vishalkadamphotography.com</a>
-                        <p class="releveant">For wedding photography.</p>
-                    </div>
-                    <div class="medium-2 hide columns credits">
-                        <p>Developed by <br> <span class="ter-color animated" id="enliven">Enliven art studio</span> </p>
-                    </div>
-                    <div class="medium-4 columns text-center social">
-                        <span class="fa fa-fw fa-facebook" data-social="fb"></span>
-                        <span class="fa fa-fw fa-twitter" data-social="tw"></span> <br>
-                        <p class="fb-content animated hide">Like us on facebook</p>
-                        <p class="tw-content animated hide">Follow us on Twitter</p>
+                    <div class="row">
+                        <div class="medium-4 columns misc text-center">
+                            <a href="http://www.productclicker.com"><img src="img/thumbs/pc-logo.png" class="pc-logo-index" alt=""></a>
+                        </div>
+                        <div class="medium-4 columns misc text-center vk-index">
+                            <a href="" class="pclink vklink">vishalkadamphotography.com</a>
+                            <p class="releveant">For wedding photography.</p>
+                        </div>
+                        <div class="medium-2 hide columns credits">
+                            <p>Developed by <br> <span class="ter-color animated" id="enliven">Enliven art studio</span> </p>
+                        </div>
+                        <div class="medium-4 columns text-center social">
+                            <span class="fa fa-fw fa-facebook" data-social="fb"></span>
+                            <span class="fa fa-fw fa-twitter" data-social="tw"></span> <br>
+                            <p class="fb-content animated hide">Like us on facebook</p>
+                            <p class="tw-content animated hide">Follow us on Twitter</p>
+                        </div>
                     </div>
                 </div>
-            </div>
         </div>
-        <script src="js/jquery.blueimp-gallery.min.js"></script>
+
         <script>
             var container = document.querySelector('#container');
             var msnry;
@@ -118,12 +95,10 @@
                 msnry = new Masonry( container,{
                     // options
                     itemSelector: '.item',
-                    stamp: '.stamp',
                     isFitWidth: true, 
                     isAnimate: true,
 
                 } );
-                msnry.stamp(document.querySelector('#item2'))
             });
         </script>
     </body>
