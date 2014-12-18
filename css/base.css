@@ -21,7 +21,8 @@
   min-height: 480px;
   width: 100%;
   height: 100%;
-  background: #fff; }
+  background: #fff;
+  background: url("../img/bg_home.jpg"); }
 
 .ip-header h1 {
   margin: 0; }
@@ -284,6 +285,9 @@ a {
   width: 100%;
   background: #000; }
 
+.hide {
+  display: none; }
+
 /* Demo colors */
 .demo-1 {
   background: #fff; }
@@ -305,29 +309,40 @@ section {
   background-color: rgba(0, 0, 0, 0.1) !important; }
 
 /* Device specific */
-.desktop #fashion {
+.desktop #fashion, .tablet #fashion {
   border-left: 3px solid #fff; }
-.desktop #profile {
+.desktop #profile, .tablet #profile {
   border-bottom: 3px solid #fff; }
-.desktop #travel {
+.desktop #travel, .tablet #travel {
   border-left: 3px solid #fff; }
-.desktop #interior {
+.desktop #interior, .tablet #interior {
   border-bottom: 3px solid #fff;
   border-right: 3px solid #fff; }
-.desktop .about {
+.desktop .about, .tablet .about {
   margin-top: 300px; }
+.desktop .textinfo #ani-info, .tablet .textinfo #ani-info {
+  text-align: right; }
+.desktop .textinfo #vish-info, .tablet .textinfo #vish-info {
+  text-align: left;
+  border-left: 1px solid #999; }
+.desktop .footer, .tablet .footer {
+  height: 165px; }
 
-.desktopp #fashion {
+.mobile #fashion {
   border-bottom: 3px solid #fff;
   margin-bottom: 300px; }
-.desktopp #profile {
+.mobile #profile {
   border-bottom: 3px solid #fff; }
-.desktopp #travel {
+.mobile #travel {
   border-bottom: 3px solid #fff; }
-.desktopp #industrial {
+.mobile #industrial {
   border-bottom: 3px solid #fff; }
-.desktopp #interior {
+.mobile #interior {
   border-bottom: 3px solid #fff; }
+.mobile .about {
+  margin-top: 300px; }
+.mobile .footer {
+  height: 400px; }
 
 #total-progress-wrap {
   display: block;
@@ -372,7 +387,7 @@ section {
   padding-left: 3px; }
 
 #textlogo {
-  width: 25%;
+  width: 350px;
   margin-top: 20px;
   margin-bottom: 30px; }
 
@@ -582,7 +597,6 @@ section {
   text-transform: uppercase; }
 
 .footer {
-  height: 165px;
   background-color: #333;
   color: #fff;
   padding: 30px 0px; }
@@ -781,8 +795,8 @@ section {
     margin: 0px auto; }
   .cat-header .cat-logo {
     margin-top: 30px;
-    width: 5%; }
-  .cat-header #textlogo {
+    width: 70px; }
+  .cat-header .textlogo {
     width: 15%; }
 
 .cat-nav {

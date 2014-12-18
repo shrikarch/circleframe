@@ -15,6 +15,7 @@ function moveProgressBar() {
         container = document.getElementById( 'ip-container' ),
         incont = document.getElementById( 'ip-incont' ),
         progr = document.getElementById( 'ip-progr' ),
+        loco = document.getElementById( 'loco' ),
         header = container.querySelector( 'header.ip-header' ),
         loader = new PathLoader( document.getElementById( 'ip-loader-circle' ) ),
         animEndEventNames = { 'WebkitAnimation' : 'webkitAnimationEnd', 'OAnimation' : 'oAnimationEnd', 'msAnimation' : 'MSAnimationEnd', 'animation' : 'animationend' },
@@ -62,6 +63,11 @@ function moveProgressBar() {
                         classie.add( container, 'loaded' );
                         classie.add( incont, 'fadeOut' );
                         classie.add( progr, 'fadeOut' );
+                        $('#textlogo').fadeOut();
+                        setTimeout(function() {
+                            $('#logotext2').addClass('fadeIn');
+                            $('#logotext2').css('display','block');
+                        }, 400);
                         clearInterval( interval );
 
                         var onEndHeaderAnimation = function(ev) {

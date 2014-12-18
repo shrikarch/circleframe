@@ -22,6 +22,14 @@
         <script src="js/device.min.js"></script>
         <script src="js/headhesive.min.js"></script>
 
+        <style>
+            #logotext2{
+                display: none;
+                width: 350px;
+                margin-top: 15px;
+            }
+        </style>
+
     </head>
     <body class="demo-1">
         <div id="ip-container" class="ip-container">
@@ -29,8 +37,9 @@
             <header class="ip-header index">
                 <h1 class="ip-logo">
                     <img src="img/logocirclesmall.png" alt="" class="ip-inner circlogo" id="circlelogo">
-                    <img src="img/logotext.png" alt="" class="ip-inner" id="textlogo">
-                    <p id="ip-incont" class="ip-inner animated" style="text-align:center; color:#333">FILMS &nbsp;|&nbsp; DOCUMENTARIES &nbsp;|&nbsp; PHOTOGRAPHY <br></p>
+                    <img src="img/logotext.png" alt="" class="ip-inner animated" id="textlogo">
+                    <img src="img/logotext2.png" alt="" class="ip-inner animated hide" id="logotext2">
+                    <p id="ip-incont" class="ip-inner animated" style="text-align:center; color:#fff">FILMS &nbsp;|&nbsp; DOCUMENTARIES &nbsp;|&nbsp; PHOTOGRAPHY <br></p>
                     <!-- Change the below data attribute to play -->
                     <div id="total-progress-wrap">
                         <div id="ip-progr" class="progress-wrap progress animated" data-progress-percent="25">
@@ -123,7 +132,7 @@ Circle Frame productions provides finely tuned end to end services from  concept
                             <div class="medium-10 medium-centered columns text-center">
                                 <span class="head" style="padding-left:5px;">CONTACT US</span>
                                 <div class="row textinfo">
-                                    <div class="large-6 medium-6 small-12 columns" style="text-align:right;">
+                                    <div class="large-6 medium-6 small-12 columns" id="ani-info">
                                         <div>
                                             <span class="name">Aniket Pawar</span> <br>
                                             Commercial Photographer <br>
@@ -136,7 +145,7 @@ Circle Frame productions provides finely tuned end to end services from  concept
                                         <br> -- <br>
                                     </div>
 
-                                    <div class="large-6 medium-6 small-12 columns" style="text-align:left; border-left:1px solid #999;">
+                                    <div class="large-6 medium-6 small-12 columns" id="vish-info">
                                         <div style="margin-left:1px;">
                                             <span class="name">Vishal Kadam</span> <br>
                                             Commercial Photographer <br>
