@@ -22,10 +22,10 @@ $(document).ready(function() {
         $('.pholder').removeClass('hide');
     });
 
-    /* $(document).bind('contextmenu', function (e) {
+     $(document).bind('contextmenu', function (e) {
         e.preventDefault();
         //alert('temporary message showing right click is off.');
-    }); */
+    });
     //$('.navigation .nav a').smoothScroll({
     $('.row-nav .medium-4 a').smoothScroll({
         offset: -130,
