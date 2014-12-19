@@ -383,6 +383,12 @@ section {
   background-color: rgba(0, 0, 0, 0.5);
   background-position: -10% 0; }
 
+.overlay-darkest {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  background-position: -10% 0; }
+
 #circlelogo {
   padding-left: 3px; }
 
@@ -755,6 +761,8 @@ section {
     padding-top: 45px; }
   .interior-category .overlay-darker {
     padding: 10px; }
+  .interior-category .overlay-darkest {
+    padding: 10px; }
   .interior-category #des-360 {
     background: url("../img/work/interior_thumbs/1.jpg") no-repeat;
     background-size: cover; }
@@ -776,6 +784,14 @@ section {
   .interior-category #save {
     background: url("../img/work/interior_thumbs/68.jpg") no-repeat;
     background-size: cover; }
+  .interior-category #mgmt {
+    background: url("../img/work/profile_thumbs/55.jpg") no-repeat;
+    background-size: cover;
+    background-position: center; }
+  .interior-category #summer {
+    background: url("../img/work/profile_thumbs/4.jpg") no-repeat;
+    background-size: cover;
+    background-position: center; }
 
 .int-sub-cat {
   padding-bottom: 40px; }
