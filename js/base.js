@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-
+    $("#footer").load("footing.html");
     $('.credits').mouseover(function(){
         $('#enliven-info, #dev-info').delay(400).slideDown();
     });
