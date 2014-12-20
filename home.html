@@ -2,8 +2,8 @@
 <html lang="en" class="no-js">
     <head>
         <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>circle frame Productions | Home</title>
         <!-- <meta name="description" content="Page Preloading Effect: Re-creating the effect seen on fontface.ninja" />
 <meta name="keywords" content="page loading, effect, initial, logo, sliding, web design, css animation, transform" />
@@ -20,13 +20,20 @@
         <script src="js/base.js"></script>
         <script src="js/jquery.smooth-scroll.js"></script>
         <script src="js/device.min.js"></script>
-        <script src="js/headhesive.min.js"></script>
 
         <style>
             #logotext2{
-                display: none;
-                width: 350px;
-                margin-top: 15px;
+                width: 225px;
+                padding-top: 95px;
+            }
+            #circlelogo{
+                width: 100px;
+                margin-bottom: 0px;
+            }
+            #logotext2,#circlelogo{
+                display: block;
+                margin: 0px auto;
+                margin-top: -110px;
             }
         </style>
 
@@ -34,41 +41,43 @@
     <body class="demo-1">
         <div id="ip-container" class="ip-container">
             <!-- initial header -->
-            <header class="ip-header index">
-                <h1 class="ip-logo">
-                    <img src="img/logocirclesmall.png" alt="" class="ip-inner circlogo" id="circlelogo">
-                    <img src="img/logotext.png" alt="" class="ip-inner animated" id="textlogo">
-                    <img src="img/logotext2.png" alt="" class="ip-inner animated hide" id="logotext2">
-                    <p id="ip-incont" class="ip-inner animated" style="text-align:center; color:#fff">FILMS &nbsp;|&nbsp; DOCUMENTARIES &nbsp;|&nbsp; PHOTOGRAPHY <br></p>
-                    <!-- Change the below data attribute to play -->
-                    <div id="total-progress-wrap">
-                        <div id="ip-progr" class="progress-wrap progress animated" data-progress-percent="25">
-                            <div class="progress-bar progress"></div>
-                        </div>
-                    </div>
-                </h1>
-                <div class="ip-loader">
-                    <svg class="ip-inner" width="60px" height="60px" viewBox="0 0 80 80">
-                        <path class="ip-loader-circlebg" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
-                        <path id="ip-loader-circle" class="ip-loader-circle" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
-                    </svg>
-                </div>
-            </header>
+            <!-- <header class="ip-header index">
+<h1 class="ip-logo">
+<img src="img/logocirclesmall.png" alt="" class="ip-inner circlogo" id="circlelogo">
+<img src="img/logotext.png" alt="" class="ip-inner animated" id="textlogo">
+<img src="img/logotext2.png" alt="" class="ip-inner animated hide" id="logotext2">
+<p id="ip-incont" class="ip-inner animated" style="text-align:center; color:#fff">FILMS &nbsp;|&nbsp; DOCUMENTARIES &nbsp;|&nbsp; PHOTOGRAPHY <br></p>
+<!-- Change the below data attribute to play -->
+            <!-- <div id="total-progress-wrap">
+<div id="ip-progr" class="progress-wrap progress animated" data-progress-percent="25">
+<div class="progress-bar progress"></div>
+</div>
+</div>
+</h1>
+<div class="ip-loader">
+<svg class="ip-inner" width="60px" height="60px" viewBox="0 0 80 80">
+<path class="ip-loader-circlebg" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
+<path id="ip-loader-circle" class="ip-loader-circle" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
+</svg>
+</div>
+</header> -->
 
             <!-- main content -->
             <div class="ip-main">
+                <img src="img/logocirclesmall.png" alt="" class="" id="circlelogo"> <br>
+                <img src="img/logotext2.png" alt="" class="" id="logotext2">
                 <div class="fancyload">
                     <!-- <div class="container navigation" id="sticker">
-                        <div class="medium-8 medium-centered columns text-center">
-                            <span class="nav"><a href="#about" class="sline">ABOUT</a> | <a href="#contact" class="sline">CONTACT</a></span>
-                        </div>
-                    </div> -->
+<div class="medium-8 medium-centered columns text-center">
+<span class="nav"><a href="#about" class="sline">ABOUT</a> | <a href="#contact" class="sline">CONTACT</a></span>
+</div>
+</div> -->
                     <div class="container">
-                       <div class="row row-nav">
-                           <div class="medium-4 columns text-center"><a href="#about">ABOUT</a></div>
-                           <div class="medium-4 columns text-center"><a href="#clients">CLIENTS</a></div>
-                           <div class="medium-4 columns text-center"><a href="#contact">CONTACT</a></div>
-                       </div>
+                        <div class="row row-nav">
+                            <div class="medium-4 columns text-center"><a href="#about">ABOUT</a></div>
+                            <div class="medium-4 columns text-center"><a href="#clients">CLIENTS</a></div>
+                            <div class="medium-4 columns text-center"><a href="#contact">CONTACT</a></div>
+                        </div>
                         <div class="row collapse totalheight">
                             <div class="medium-9 columns">
                                 <div class="row box">
@@ -120,9 +129,9 @@
                             <div class="medium-10 medium-centered columns text-center" id="about-texts">
                                 <span class="head">ABOUT US</span>
                                 <p class="abt-text">Moving beyond the rectangle might help you move beyond the predictable. We bring to you Circle Frame productions, a Mumbai based full service production house. Initiated by two expert professionals Aniket Anant Pawar and Vishal Kadam having a professional experience of more than 4 years of commercial photography.
-They started out a new venture with a team of highly trained and experienced staff with a creative and technical skill set.
-<br>
-Circle Frame productions provides finely tuned end to end services from  conceptualization & pre-production to post production, delivering the best effective output. With a dedicated production team, meeting those pressing deadlines comes with ease. We cater to a wide variety of industries including Advertising, TV production, corporate films, documentaries, commercial photography - fashion, Interiors, <br> lifestyle and Corporates. <br> Take a look at our work for some examples of what we can do for you.</p>
+                                    They started out a new venture with a team of highly trained and experienced staff with a creative and technical skill set.
+                                    <br>
+                                    Circle Frame productions provides finely tuned end to end services from  conceptualization & pre-production to post production, delivering the best effective output. With a dedicated production team, meeting those pressing deadlines comes with ease. We cater to a wide variety of industries including Advertising, TV production, corporate films, documentaries, commercial photography - fashion, Interiors, <br> lifestyle and Corporates. <br> Take a look at our work for some examples of what we can do for you.</p>
                             </div>
                         </div>
                     </div>
@@ -156,35 +165,23 @@ Circle Frame productions provides finely tuned end to end services from  concept
                                 </div>
                             </div>
                         </div>
-                    </div>	
+                    </div>
 
                 </div><!-- /fancyload -->
             </div><!-- /ip-main -->
             <div class="container">
                 <div class="footer footer-custom temp-index-footer" id="footer">
-                    <div class="row">
-                        <div class="medium-4 columns misc text-center">
-                            <a href="http://www.productclicker.com"><img src="img/thumbs/pc-logo.png" class="pc-logo-index" alt=""></a>
-                        </div>
-                        <div class="medium-4 columns misc text-center vk-index">
-                            <a href="" class="pclink vklink">vishalkadamphotography.com</a>
-                            <p class="releveant">For wedding photography.</p>
-                        </div>
-                        <div class="medium-2 hide columns credits">
-                            <p>Developed by <br> <span class="ter-color animated" id="enliven">Enliven art studio</span> </p>
-                        </div>
-                        <div class="medium-4 columns text-center social">
-                            <span class="fa fa-fw fa-facebook" data-social="fb"></span>
-                            <span class="fa fa-fw fa-twitter" data-social="tw"></span> <br>
-                            <p class="fb-content animated hide">Like us on facebook</p>
-                            <p class="tw-content animated hide">Follow us on Twitter</p>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </div>
         <script src="js/classie.js"></script>
         <script src="js/pathLoader.js"></script>
         <script src="js/main.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#footer").load("footing.html");
+            });
+        </script>
     </body>
 </html>

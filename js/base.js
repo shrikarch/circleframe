@@ -1,7 +1,6 @@
 $(document).ready(function() {
 
 
-
     $('.credits').mouseover(function(){
         $('#enliven-info, #dev-info').delay(400).slideDown();
     });
@@ -22,8 +21,8 @@ $(document).ready(function() {
         $('.pholder').removeClass('hide');
     });
 
-     $(document).bind('contextmenu', function (e) {
-        e.preventDefault();
+    $(document).bind('contextmenu', function (e) {
+        //e.preventDefault();
         //alert('temporary message showing right click is off.');
     });
     //$('.navigation .nav a').smoothScroll({
@@ -31,12 +30,6 @@ $(document).ready(function() {
         offset: -130,
         speed: 1500
     });
-
-    $('#container .item a').lightBox({
-        maxHeight: 100,
-        maxWidth: 700
-    });
-
 
 
 });
