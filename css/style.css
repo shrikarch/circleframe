@@ -21,7 +21,7 @@
   min-height: 480px;
   width: 100%;
   height: 100%;
-  background: #fff;
+  background-size: cover;
   background: url("../img/bg_home.jpg") white; }
 
 .ip-header h1 {
