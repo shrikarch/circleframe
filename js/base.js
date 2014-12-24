@@ -26,7 +26,7 @@ $(document).ready(function() {
         //alert('temporary message showing right click is off.');
     });
     //$('.navigation .nav a').smoothScroll({
-    $('.row-nav .medium-4 a').smoothScroll({
+    $('.navigation .nav a').smoothScroll({
         offset: -130,
         speed: 1500
     });
