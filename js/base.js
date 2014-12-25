@@ -1,9 +1,6 @@
 $(document).ready(function() {
 
     $("#footer").load("footing.html");
-    $('.credits').mouseover(function(){
-        $('#enliven-info, #dev-info').delay(400).slideDown();
-    });
 
     $('#footer .fa').mouseover(function() {
         var prefix = '.' + $(this).data('social') + '-content';
