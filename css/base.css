@@ -327,6 +327,14 @@ section {
   border-left: 1px solid #999; }
 .desktop .footer, .tablet .footer {
   height: 135px; }
+.desktop .border-bottom, .tablet .border-bottom {
+  border-bottom: 1px solid #ccc; }
+.desktop .border-top, .tablet .border-top {
+  border-top: 1px solid #ccc; }
+.desktop .border-right, .tablet .border-right {
+  border-right: 1px solid #ccc; }
+.desktop .border-left, .tablet .border-left {
+  border-left: 1px solid #ccc; }
 
 .mobile #fashion {
   border-bottom: 3px solid #fff;
@@ -686,18 +694,6 @@ section {
   padding: 25px 0px 20px 0px;
   text-transform: uppercase;
   height: 95px; }
-
-.border-bottom {
-  border-bottom: 1px solid #ccc; }
-
-.border-top {
-  border-top: 1px solid #ccc; }
-
-.border-right {
-  border-right: 1px solid #ccc; }
-
-.border-left {
-  border-left: 1px solid #ccc; }
 
 .clients-subname {
   font-size: 12px;
