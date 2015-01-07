@@ -35,6 +35,19 @@
                 margin: 0px auto;
                 margin-top: -110px;
             }
+            #sticker{
+                margin-top: 0px;
+                padding-top: 27px;
+                margin-bottom: 30px;
+            }
+            .isStuck{
+                margin-left: -125px;
+                background-color: #fff;
+                text-align: center;
+                width: 100%;
+                padding: 10px 0px;
+                z-index: 999;
+            }
         </style>
 
     </head>
@@ -238,5 +251,9 @@
         <script src="js/classie.js"></script>
         <script src="js/pathLoader.js"></script>
         <script src="js/main.js"></script>
+        <script src="js/stickUp.js"></script>
+        <script type="text/javascript">
+            jQuery(function($) { $(document).ready( function() { $('#sticker').stickUp({marginTop: 'auto'}); });});
+        </script>
     </body>
 </html>
