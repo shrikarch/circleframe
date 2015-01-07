@@ -354,7 +354,7 @@ section {
 .mobile .about {
   margin-top: 300px; }
 .mobile .footer {
-  height: 200px; }
+  height: 250px; }
 
 #total-progress-wrap {
   display: block;
@@ -678,7 +678,7 @@ section {
     padding-top: 45px; }
 
 .temp-index-footer .social {
-  padding-top: 28px;
+  padding-top: 20px;
   border-right: 0px solid #555; }
 
 #clients {
