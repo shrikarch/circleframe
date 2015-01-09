@@ -337,6 +337,8 @@ section {
   border-right: 1px solid #ccc; }
 .desktop .border-left, .tablet .border-left {
   border-left: 1px solid #ccc; }
+.desktop .nav, .tablet .nav {
+  font-size: 16px; }
 
 .mobile #textlogo {
   width: 200px; }
@@ -375,6 +377,10 @@ section {
     left: 0;
     position: absolute;
     top: 0; }
+  .progress-wrap .nav {
+    font-size: 13px; }
+  .progress-wrap .ip-incont {
+    font-size: 13px; }
 
 /*Added styles*/
 .fullWidth {
@@ -425,8 +431,7 @@ section {
   margin-top: 80px;
   margin-bottom: 60px; }
   .navigation .nav {
-    padding-left: 11px;
-    font-size: 16px; }
+    padding-left: 11px; }
     .navigation .nav a {
       color: #aaa;
       -webkit-transition: color 0.5s;
