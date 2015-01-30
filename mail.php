@@ -47,7 +47,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->Username = 'info@circleframeproductions.com';                 // SMTP username
         $mail->Password = 'aniketvishal123';                           // SMTP password
         $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
-        $mail->Port = 80;                                    // TCP port to connect to
+        $mail->Port = 587;                                    // TCP port to connect to
 
         $mail->From = 'info@circleframeproductions.com';
         $mail->FromName = 'PC mail';
