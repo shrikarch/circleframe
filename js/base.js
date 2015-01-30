@@ -1,5 +1,5 @@
 $(document).ready(function() {
-
+    $('#captcha-section').hide();
     $("#footer").load("footing.html");
 
     $('#footer .fa').mouseover(function() {
@@ -26,6 +26,9 @@ $(document).ready(function() {
     $('.navigation .nav a').smoothScroll({
         offset: -130,
         speed: 1500
+    });
+    $('#message').focusin(function(){
+        $('#captcha-section').slideDown();
     });
 
     var form = $('#ajax-contact');
