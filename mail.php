@@ -61,12 +61,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         //$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
         $mail->isHTML(true);                                  // Set email format to HTML
 
-        $mail->Subject = " $enq from $name";
+        $mail->Subject = " from $name";
         $mail->Body    =  "$message <br><br> <b>Complete Details of this enquiry:</b> <br>
 <b>Name: </b>$name<br>
 <b>Email: </b>$email<br>
 <b>Contact No: </b>$phone<br>
-<b>Enq Type: </b>$enq<br>
+<b>Enq Type: </b><br>
 <b>Sent on: </b>$time";
 
         $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
