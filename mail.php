@@ -42,14 +42,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         date_default_timezone_set('Asia/Calcutta');
         $time = date("H:i:s Y-m-d");
 
-        $mail->Host = 'mail.circleframeproductions.in';  // Specify main and backup SMTP servers
+        $mail->Host = 'mail.circleframeproductions.com';  // Specify main and backup SMTP servers
         $mail->SMTPAuth = true;                               // Enable SMTP authentication
-        $mail->Username = 'info@circleframeproductions.in';                 // SMTP username
+        $mail->Username = 'info@circleframeproductions.com';                 // SMTP username
         $mail->Password = 'aniketvishal123';                           // SMTP password
         $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
         $mail->Port = 587;                                    // TCP port to connect to
 
-        $mail->From = 'info@circleframeproductions.in';
+        $mail->From = 'info@circleframeproductions.com';
         $mail->FromName = 'PC mail';
         $mail->addAddress('shrikarz@gmail.com');     // Add a recipient
         //$mail->addAddress('ellen@example.com');               // Name is optional
