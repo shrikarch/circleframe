@@ -42,7 +42,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         date_default_timezone_set('Asia/Calcutta');
         $time = date("H:i:s Y-m-d");
 
-        $mail->Host = localhost;  // Specify main and backup SMTP servers
+        $mail->"Host = localhost";  // Specify main and backup SMTP servers
         $mail->SMTPAuth = true;                               // Enable SMTP authentication
         $mail->Username = 'info@circleframeproductions.com';                 // SMTP username
         $mail->Password = 'aniketvishal123';                           // SMTP password
@@ -72,7 +72,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
         if(!$mail->send()) {
-            echo 'Could not establish connection to mail server. Please try contacting us on the info given below.';
+            echo 'Could not establish connection to mail server. Meanwhile Please try contacting us on the info given below.';
             //echo 'Message could not be sent.';
             //echo 'Mailer Error: ' . $mail->ErrorInfo;
         } else {
