@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('#captcha-section').hide();
+    $('#captcha-section,#waiting').hide();
     $("#footer").load("footing.html");
 
     $('#footer .fa').mouseover(function() {
@@ -19,7 +19,7 @@ $(document).ready(function() {
     });
 
     $(document).bind('contextmenu', function (e) {
-        e.preventDefault();
+        //e.preventDefault();
         //alert('temporary message showing right click is off.');
     });
     //$('.navigation .nav a').smoothScroll({
