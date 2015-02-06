@@ -19,7 +19,7 @@ $(document).ready(function() {
     });
 
     $(document).bind('contextmenu', function (e) {
-        //e.preventDefault();
+        e.preventDefault();
         //alert('temporary message showing right click is off.');
     });
     //$('.navigation .nav a').smoothScroll({

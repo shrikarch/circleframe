@@ -21,8 +21,8 @@
   min-height: 480px;
   width: 100%;
   height: 100%;
-  background-size: cover;
-  background: url("../img/bg_home_large2.jpg") white; }
+  background: url("../img/bg_home_large2.jpg") white;
+  background-size: cover; }
 
 .ip-header h1 {
   margin: 0; }
@@ -442,9 +442,9 @@ section {
     .navigation .nav a:hover {
       color: #000; }
     .navigation .nav a:first-child {
-      margin-right: 20px; }
+      margin-right: 13px; }
     .navigation .nav a:nth-child(2) {
-      margin-left: 20px; }
+      margin-left: 13px; }
 
 .row-nav {
   margin-top: 100px;
