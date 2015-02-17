@@ -6,11 +6,13 @@ if(isset($_POST) && !empty($_POST))
 
 
 
-	$name = $_POST['name'];
+	//$name = $_POST['name'];
+	$name = 'macho';
 	$subject = "Mail from sharpenerinc.com";
 
-	$body = "Email : ".$_POST['email'];
-	$body .= "<br><br>Message : ".$_POST['message'];
+	//$body = "Email : ".$_POST['email'];
+	$body = "Email : ";
+	//$body .= "<br><br>Message : ".$_POST['message'];
 
 
 	$headers  = 'MIME-Version: 1.0' . "\r\n";
