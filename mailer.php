@@ -1,29 +1,38 @@
 <?php
 
 
-	$to = "shrikarz@gmail.com";
+require_once('phpmailer/class.phpmailer.php');
 
+$mail             = new PHPMailer(); // defaults to using php "mail()"
 
+$mail->IsSendmail(); // telling the class to use SendMail transport
 
-	//$name = $_POST['name'];
-	$name = 'macho';
-	$subject = "Mail from sharpenerinc.com";
+$body             = 'asd';
+//$body             = eregi_replace("[\]",'',$body);
 
-	//$body = "Email : ".$_POST['email'];
-	$body = "Email : ";
-	//$body .= "<br><br>Message : ".$_POST['message'];
+$mail->AddReplyTo("shrikarz@gmail.com","First Last");
 
+$mail->SetFrom('name@yourdomain.com', 'First Last');
 
-	$headers  = 'MIME-Version: 1.0' . "\r\n";
-	$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+//$mail->AddReplyTo("name@yourdomain.com","First Last");
 
-	if(mail($to,$subject,$body))
-	{
-		echo 'ok';
-	}
-	else
-	{
-		echo 'not-ok';
-	}
+$address = "shrikarz@gmail.com";
+$mail->AddAddress($address, "John Doe");
+
+$mail->Subject    = "PHPMailer Test Subject via Sendmail, basic";
+
+$mail->AltBody    = "To view the message, please use an HTML compatible email viewer!"; // optional, comment out and test
+
+$mail->MsgHTML($body);
+
+//$mail->AddAttachment("images/phpmailer.gif");      // attachment
+//$mail->AddAttachment("images/phpmailer_mini.gif"); // attachment
+
+if(!$mail->Send()) {
+    echo "Mailer Error: " . $mail->ErrorInfo;
+} else {
+    echo "Message sent!";
+}
+
 
 ?>
