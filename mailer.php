@@ -1,7 +1,6 @@
 <?php
 
-if(isset($_POST) && !empty($_POST))
-{
+
 	$to = "shrikarz@gmail.com";
 
 
@@ -18,7 +17,7 @@ if(isset($_POST) && !empty($_POST))
 	$headers  = 'MIME-Version: 1.0' . "\r\n";
 	$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 
-	if(mail($to,$subject,$body,$headers))
+	if(mail($to,$subject,$body))
 	{
 		echo 'ok';
 	}
@@ -26,6 +25,5 @@ if(isset($_POST) && !empty($_POST))
 	{
 		echo 'not-ok';
 	}
-}
 
 ?>
