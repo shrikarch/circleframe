@@ -32,7 +32,6 @@ $(document).ready(function() {
     });
 
     var form = $('#ajax-contact');
-
     // Get the messages div.
     var formMessages = $('#form-messages');
 

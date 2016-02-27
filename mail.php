@@ -42,16 +42,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         date_default_timezone_set('Asia/Calcutta');
         $time = date("H:i:s Y-m-d");
 
-        $mail->Host = "localhost";  // Specify main and backup SMTP servers
+        $mail->Host = 'localhost';  // Specify main and backup SMTP servers
         $mail->SMTPAuth = true;                               // Enable SMTP authentication
-        $mail->Username = 'info@circleframeproductions.com';                 // SMTP username
+        $mail->Username = 'ani@productclicker.com';                 // SMTP username
         $mail->Password = 'aniketvishal123';                           // SMTP password
-        //$mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
-        $mail->Port = 25;                                    // TCP port to connect to
+        $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
+        $mail->Port = 465;                                    // TCP port to connect to
 
-        $mail->From = 'info@circleframeproductions.com';
-        $mail->FromName = 'PC mail';
-        $mail->addAddress('shrikarz@gmail.com');     // Add a recipient
+        $mail->From = 'ani@productclicker.com';
+        $mail->FromName = 'Circleframe Site mail';
+        $mail->addAddress('aniketpawar07@gmail.com');     // Add a recipient
         //$mail->addAddress('ellen@example.com');               // Name is optional
         $mail->addReplyTo("$email");
         //$mail->addCC('cc@example.com');
@@ -61,20 +61,18 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         //$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
         $mail->isHTML(true);                                  // Set email format to HTML
 
-        $mail->Subject = " from $name";
+        $mail->Subject = " $enq from $name";
         $mail->Body    =  "$message <br><br> <b>Complete Details of this enquiry:</b> <br>
 <b>Name: </b>$name<br>
 <b>Email: </b>$email<br>
-<b>Contact No: </b>$phone<br>
-<b>Enq Type: </b><br>
+<b>Contact No: </b>$number<br>
 <b>Sent on: </b>$time";
 
         $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
         if(!$mail->send()) {
-            echo 'Could not establish connection to mail server. Please try contacting us on the info given below.';
-            //echo 'Message could not be sent.';
-            //echo 'Mailer Error: ' . $mail->ErrorInfo;
+            echo 'Message could not be sent.';
+            echo 'Mailer Error: ' . $mail->ErrorInfo;
         } else {
             echo "We have recieved your message. We will get back to you in few days.";
         }
